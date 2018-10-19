@@ -1,0 +1,13 @@
+{
+  "name": "sagyo_houkokusho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "reboot": "node index.js reboot",
+    "shutdown": "node index.js shutdown",
+    "start": "node index.js reboot && node index.js shutdown"
+  },
+  "author": "",
+  "license": "ISC"
+}
